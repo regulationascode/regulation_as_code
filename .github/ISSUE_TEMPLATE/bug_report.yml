@@ -1,0 +1,19 @@
+name: Bug report
+description: Report behavior using synthetic data
+title: "Bug: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened?
+      description: Describe the profile, step, expected outcome, and actual outcome.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Synthetic reproduction
+      description: Include sample steps or invented values only. Do not share bank data.
+    validations:
+      required: true

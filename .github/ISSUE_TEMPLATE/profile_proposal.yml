@@ -1,0 +1,19 @@
+name: Profile proposal
+description: Propose a public reporting example
+title: "Profile: "
+labels: ["enhancement"]
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Official public source
+      description: Link the authority and relevant section.
+    validations:
+      required: true
+  - type: textarea
+    id: use
+    attributes:
+      label: Bank use and scope
+      description: Explain who would use the profile and what it would check.
+    validations:
+      required: true
