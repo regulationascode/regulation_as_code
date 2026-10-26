@@ -2,6 +2,10 @@
   "name": "regulationAsCodeStudio",
   "version": "0.1.0",
   "description": "Local workbench for reviewed financial reporting rules and evidence",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/regulationascode/regulation_as_code.git"
+  },
   "private": true,
   "type": "module",
   "engines": {

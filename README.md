@@ -6,9 +6,11 @@ An open source local workbench for tracing a financial reporting obligation from
 
 ## Try it in five minutes
 
-Install [Node.js 24 LTS](https://nodejs.org/en/download), clone this repository, and run:
+Install [Node.js 24 LTS](https://nodejs.org/en/download), then run:
 
 ```sh
+git clone https://github.com/regulationascode/regulation_as_code.git
+cd regulation_as_code
 npm start
 ```
 
