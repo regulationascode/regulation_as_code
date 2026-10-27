@@ -1,5 +1,7 @@
 # Regulation as Code Studio
 
+<img src="assets/regulation_as_code_mark.svg" alt="Regulation as Code logo" width="72" height="72" />
+
 An open source local workbench for tracing a financial reporting obligation from its source through human review, an executable rule, data mapping, validation, report preview, and evidence.
 
 **Release status:** public preview. The three bundled examples work locally. They are educational control examples, not official filing rules or production submission software.

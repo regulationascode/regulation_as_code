@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Regulation as Code</title>
+  <desc id="desc">An ivory letter R with a mint review point on an evergreen field.</desc>
+  <rect width="512" height="512" rx="112" fill="#112D26"/>
+  <path fill="#F3F7F3" fill-rule="evenodd" d="M146 382V130h143c67 0 107 37 107 96 0 48-24 80-68 94l81 62h-85l-70-58h-44v58h-64zm64-119h72c33 0 50-13 50-37s-17-37-50-37h-72v74z"/>
+  <circle cx="377" cy="356" r="16" fill="#C2E0CD"/>
+</svg>

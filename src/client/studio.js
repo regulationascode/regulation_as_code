@@ -107,7 +107,7 @@ function shell(content) {
     return '<button type="button" class="navLink ' + (st.view === item.id ? "current" : "") + '" data-rac-view="' + item.id + '"><span class="navGlyph">' + ({ overview: "01", examples: "02", pipeline: "03", changes: "04", shared: "05", architecture: "06", governance: "07", roadmap: "08" }[item.id]) + '</span><span>' + item.label + '</span>' + (item.id === "changes" && st.changeReview && st.changeReview.status === "open" ? '<i class="navAlert"></i>' : "") + '</button>';
   }).join("");
   document.getElementById("app").innerHTML =
-    '<aside class="appRail"><a class="brand" href="#" data-rac-view="overview"><span class="brandMark">R</span><span><strong>Regulation as Code</strong><small>Studio</small></span></a>' +
+    '<aside class="appRail"><a class="brand" href="#" data-rac-view="overview"><img class="brandMark" src="/assets/regulation_as_code_mark.svg" alt=""><span><strong>Regulation as Code</strong><small>Studio</small></span></a>' +
     '<div class="railCaption">WORKSPACE</div><nav class="railNav" aria-label="Main navigation">' + nav + '</nav>' +
     '<div class="railExample"><p class="railCaption">CURRENT EXAMPLE</p><strong>' + esc(studio.example.shortName) + '</strong><span>' + esc(studio.example.dataNote) + '</span><button data-rac-view="examples">Choose another example</button></div>' +
     '<div class="railBoundary"><strong>Local prototype</strong><p>Workflow state is saved in this browser. Imported rows stay in memory.</p></div>' +

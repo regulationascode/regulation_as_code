@@ -8,6 +8,7 @@ const host = process.env.REGULATION_AS_CODE_HOST || "127.0.0.1";
 const port = Number(process.env.REGULATION_AS_CODE_PORT || 4173);
 const publicAssets = new Set([
   "/index.html",
+  "/assets/regulation_as_code_mark.svg",
   "/src/client/styles.css",
   "/src/client/runtime.js",
   "/src/client/studio.js",
