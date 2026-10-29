@@ -4,14 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#102424" />
-    <meta name="description" content="A local workbench for reviewed financial reporting rules, data checks, reports, and evidence." />
-    <link rel="icon" type="image/svg+xml" href="/assets/regulation_as_code_mark.svg" />
+    <meta name="description" content="A local workbench for reviewing public financial reporting obligations, testing a selected CFTC timing rule, and examining synthetic evidence." />
+    <meta property="og:title" content="Regulation as Code Studio" />
+    <meta property="og:description" content="Inspect a synthetic reporting workflow from source to deterministic check and evidence preview." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>Regulation as Code Studio</title>
-    <link rel="stylesheet" href="/src/client/styles.css" />
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/client/runtime.js"></script>
-    <script type="module" src="/src/client/studio.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

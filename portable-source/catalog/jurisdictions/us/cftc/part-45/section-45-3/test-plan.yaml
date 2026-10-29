@@ -1,0 +1,15 @@
+schema_version: 1
+regulation_id: us-cftc-17cfr-part45-section45-3
+status: synthetic-only
+test_reference: tests/rule-timing.test.mjs
+required_case_types:
+  - selected-branch-within-demo-deadline
+  - selected-branch-after-demo-deadline
+  - weekend-boundary
+  - invalid-date
+  - branch-selection-is-explicit
+does_not_prove:
+  - legal interpretation or reporting applicability
+  - legal-holiday calendar correctness
+  - institution data mapping or SDR payload validity
+  - successful filing, acknowledgement, or production control

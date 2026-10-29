@@ -1,0 +1,37 @@
+schema_version: 1
+regulation_id: us-cftc-17cfr-part45-section45-3
+sources:
+  - id: ecfr-17-cfr-45-3
+    role: codified-rule-text
+    publisher: Office of the Federal Register / eCFR
+    title: "17 CFR §45.3 — Swap creation data"
+    url: https://www.ecfr.gov/current/title-17/chapter-I/part-45/section-45.3
+    format: XML
+    api_url_template: "https://www.ecfr.gov/api/versioner/v1/full/{date}/title-17.xml"
+    status: identified-needs-dated-snapshot-and-review
+    retrieved_at: null
+    as_of_date: null
+    effective_date: null
+    sha256: null
+  - id: cftc-tech-spec-dec-2023-clean
+    role: technical-specification
+    publisher: Commodity Futures Trading Commission
+    title: Parts 43 and 45 Technical Specification — December 2023 Clean
+    url: https://www.cftc.gov/media/9921/Part43_45TechnicalSpecification12132023CLEAN/download
+    format: PDF
+    status: listed-on-cftc-page-current-applicability-to-be-confirmed
+    retrieved_at: null
+    as_of_date: null
+    effective_date: null
+    sha256: null
+  - id: cftc-tech-spec-mar-2023-v3-2
+    role: prior-prototype-reference
+    publisher: Commodity Futures Trading Commission
+    title: Parts 43 and 45 Technical Specification — March 2023 Clean, version 3.2
+    url: https://www.cftc.gov/media/8261/Part43_45TechnicalSpecification03012023CLEAN/download
+    format: PDF
+    status: reconcile-against-later-cftc-publications-before-use
+    retrieved_at: null
+    as_of_date: null
+    effective_date: null
+    sha256: null

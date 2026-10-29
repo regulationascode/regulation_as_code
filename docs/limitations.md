@@ -1,14 +1,15 @@
 # Limitations
 
-This is a working local preview, not a production regulatory reporting platform.
+This repository is a local preview that uses synthetic values. It is not a production regulatory reporting platform.
 
-1. The bond authority and obligation are fictional.
-2. The HMDA and Call Report checks are selected local preflight examples, not official edit specifications or submission formats.
-3. Names entered for approvals are not verified identities.
-4. Imported CSV rows live in browser memory, and workflow state lives in local browser storage.
-5. Evidence is hashed but not signed or stored immutably.
-6. The app has no regulator feed, filing connection, production audit store, identity service, or automated legal interpretation.
-7. Standards links and generic field concepts do not establish conformance.
-8. New domains need a developer to implement deterministic validation code.
+1. The timing view covers three selected section 45.3 branches. It does not determine legal applicability or reporting counterparty.
+2. The calculation counts weekdays only. Legal holidays, the relevant reporting location, and other Part 45 requirements are outside its scope.
+3. The source label is an October 23, 2026 snapshot reference. The technical specification reference is version 3.2 from March 2023. The CDM 7.0.0 paths are candidates. None establishes a current approved implementation.
+4. Names entered for review are not verified identities. Local review buttons do not authenticate a person or authorize a production release.
+5. Scenario and pilot values are stored in browser local storage. Downloaded files contain the values shown in the app.
+6. The output is a synthetic evaluation envelope. It is not signed or stored immutably.
+7. The app has no source monitor, regulator feed, filing connection, identity service, backend, live AI, or production audit store.
+8. Standards references and generic concepts do not establish conformance. The catalog scaffold is not loaded as executable application logic.
+9. Pilot economics uses editable assumptions or entered observations. It does not prove savings, causation, or regulator acceptance.
 
-A bank must validate a profile against current official requirements and its own data, controls, and filing obligations before operational use.
+An adopting institution must independently validate sources, interpretation, applicability, calendars, mappings, controls, data handling, and filing obligations before operational use.

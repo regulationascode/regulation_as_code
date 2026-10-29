@@ -1,11 +1,11 @@
 # Governance
 
-This preview is maintained by its repository owners. It is not yet governed by an industry foundation, regulator, or bank consortium.
+This public preview is maintained by the repository owners. It is not governed by an industry foundation, regulator, or financial institution consortium.
 
-Changes to a reporting interpretation should include the exact public source, a rationale, impact on existing profiles, changed validation behavior, and golden cases. A maintainer reviews code quality and reproducibility. A domain reviewer should review the legal or reporting interpretation before a profile is represented as reviewed. A test pass cannot substitute for that review.
+A proposed interpretation should include the exact public source, version, rationale, expected behavior, and synthetic test cases. A maintainer reviews reproducibility and code quality. A qualified domain reviewer should assess the interpretation before anyone describes it as approved. Passing tests do not establish legal correctness.
 
-If reviewers disagree, preserve the competing interpretations and affected jurisdictions in the discussion. Do not silently rewrite a shared profile as if one view were universal. Use versioned alternatives where necessary.
+The app includes buttons that change local demonstration review state. They do not authenticate a user, record an official approval, prove independence, or authorize a production release.
 
-Release notes should name source and rule versions, changes in expected output, migration steps, and any deprecated behavior. Breaking rule behavior should receive a new major version. Local bank release approval and separation of duties remain the bank's responsibility.
+If reviewers disagree, record the alternatives, affected scope, and rationale. Do not present one interpretation as universal. Release notes should name source and rule versions, output changes, migration steps, and deprecated behavior.
 
-Community proposals and defects belong in issues. Security concerns belong in the private channel described in [SECURITY.md](../SECURITY.md). See [CONTRIBUTING.md](../CONTRIBUTING.md) for contribution steps.
+The adopting institution remains responsible for interpretation, applicability, separation of duties, access, release approval, and evidence retention. Community proposals belong in issues. Security concerns belong in the private channel described in [SECURITY.md](../SECURITY.md). See [CONTRIBUTING.md](../CONTRIBUTING.md) for contribution steps.

@@ -1,0 +1,4 @@
+# Replace these examples with real organization teams before enabling required reviews.
+# /catalog/ @YOUR-ORG/legal-compliance-reviewers @YOUR-ORG/reporting-engineering
+# /src/ @YOUR-ORG/engineering-reviewers
+# /.github/workflows/ @YOUR-ORG/security-reviewers @YOUR-ORG/engineering-reviewers

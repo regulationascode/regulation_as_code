@@ -1,0 +1,25 @@
+schema_version: 1
+regulation_id: us-cftc-17cfr-part45-section45-3
+status: draft
+source_refs:
+  - ecfr-17-cfr-45-3
+  - cftc-tech-spec-dec-2023-clean
+  - cftc-tech-spec-mar-2023-v3-2
+scope:
+  reporting_regime: CFTC Part 45 swap-data reporting
+  provision: "17 CFR §45.3"
+  example_instrument: vanilla interest-rate swap
+  fixture_data: synthetic-only
+decision_points:
+  - id: reporting-party-and-branch
+    owner: institution-legal-and-compliance
+    requires_human_decision: true
+    notes: Institution-specific facts and the applicable current rule must be reviewed.
+  - id: business-day-calendar
+    owner: institution-legal-compliance-and-operations
+    requires_human_decision: true
+    notes: Confirm reporting location, applicable legal holidays, and calendar source.
+limitations:
+  - This is a research scaffold, not a legal interpretation or applicability determination.
+  - Technical-specification version reconciliation is outstanding.
+  - Institution-specific reporting data and controls are not represented.

@@ -1,6 +1,6 @@
 ## Purpose
 
-Describe the user problem and the reporting domain.
+Describe the user problem and the reporting scope.
 
 ## Source and interpretation
 
@@ -8,8 +8,8 @@ Link the official source, version, section, effective date, and review rationale
 
 ## Behavior and evidence
 
-Describe changed rule outcomes, mappings, golden cases, report fields, and evidence.
+Describe changed rule outcomes, mapping assumptions, synthetic cases, evaluation contents, and evidence.
 
 ## Review
 
-Confirm that fixtures are synthetic or approved public data, that no bank information or credentials are included, and that `npm test` passes.
+Confirm that fixtures are synthetic or approved public data, no institution information or credentials are included, and `npm test` passes.

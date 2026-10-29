@@ -8,6 +8,8 @@ outputs/
 private/
 local_data/
 evidence/
+dist/
+coverage/
 *.log
 *.pem
 *.key

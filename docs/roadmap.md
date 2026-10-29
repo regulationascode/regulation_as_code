@@ -1,13 +1,14 @@
 # Roadmap
 
-The fictional corporate bond profile demonstrates the full source to evidence workflow. HMDA and Call Report are narrower preflight and reconciliation examples. The conference experience builds on this Studio workflow with a focused CFTC timing walkthrough and additional presentation views. Those views are not part of the local app in this repository. The next product work should focus on reusable artifacts rather than adding more presentation screens.
+The current app demonstrates a narrow timing scenario, local review state, a conceptual mapping view, a synthetic evaluation envelope, and pilot economics. The portable catalog validates its own YAML structure but is not loaded by the app.
 
-1. Publish a bounded profile schema and loader with explicit supported operations.
-2. Add a command line runner for profiles and CSV inputs, with machine readable results.
-3. Version source snapshots and compare changed sections with clear impact links.
-4. Define portable report and evidence schemas with independent verification tools.
-5. Build concrete mappings to a chosen standard in a narrow domain and publish conformance evidence.
-6. Add optional AI candidate discovery only when outputs, source excerpts, review status, and quality measures can be logged.
-7. Establish broader maintainer and domain review governance if institutions begin contributing.
+Potential future work:
 
-Each item should ship with documentation and conformance cases. The roadmap is a plan, not a claim of existing functionality.
+1. Add versioned source snapshots with a clear method for comparing changed sections.
+2. Define bounded rule operations and a safe interpreter before considering rule execution from catalog files.
+3. Define portable report and evidence schemas with independent verification tools.
+4. Build concrete mappings to one chosen standard in a narrow domain and publish conformance evidence.
+5. Consider AI assistance for candidate discovery only when source excerpts, review status, outputs, and quality measures can be logged.
+6. Broaden maintainer and domain review if institutions begin contributing.
+
+These are proposals, not current features. Any change to a legal interpretation requires accountable human review.

@@ -1,7 +1,5 @@
 # Standards and interoperability
 
-The prototype uses generic field concepts. It does not claim conformance to FINOS CDM, ISDA Digital Regulatory Reporting, XBRL, ISO 20022, or an official regulator filing schema.
+The mapping view presents selected conceptual crosswalks from CFTC field references to candidate FINOS CDM 7.0.0 locations. It does not load or execute CDM. It does not claim a complete Appendix 1 mapping, approved UPI mapping, SDR payload, or ISDA Digital Regulatory Reporting implementation.
 
-Those standards may be useful in different domains. FINOS CDM can represent products and lifecycle events. ISDA Digital Regulatory Reporting applies to supported derivatives reporting work. XBRL can express taxonomy based reporting. ISO 20022 can represent structured financial messages. A useful mapping must identify the exact standard version, concept, transformation, test case, and limits of coverage.
-
-The HMDA and FFIEC examples cite official public resources for context and field references. Their checks are selected educational preflight controls, not official validation suites. See each [profile guide](../profiles/) for its source links and scope.
+FINOS CDM can represent products and lifecycle events. ISDA Digital Regulatory Reporting provides executable industry interpretations for supported reporting work. XBRL can express taxonomy based reporting. ISO 20022 can represent structured financial messages. A useful mapping must name the exact standard version, concept, transformation, test case, and coverage limit.

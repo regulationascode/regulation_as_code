@@ -1,7 +1,7 @@
 # Changelog
 
-## 0.1.0
+## 1.0.0
 
-Initial public preview with three local reporting examples, human review workflow, mapping, deterministic checks, report previews, evidence exports, change review, and conformance cases.
+Initial public preview of the CFTC timing workspace and portable catalog scaffold. The workspace includes source references, selected obligation branches, a rule view, candidate mappings, deterministic timing evaluation, a synthetic output envelope, impact replay, governance guidance, adoption guidance, and pilot economics.
 
-This release is for evaluation and education. It is not a production regulator submission system.
+This release is for evaluation and education. It is not a production regulatory reporting system.

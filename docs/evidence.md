@@ -1,7 +1,7 @@
-# Evidence and reports
+# Evaluation output and evidence
 
-The application produces local report previews in CSV or JSON and a JSON evidence pack. The pack captures the current source reference, rule and mapping versions, local approval entries, validation summary, report output, and content fingerprints.
+The Evidence view downloads a synthetic JSON evaluation envelope with the selected branch, scenario dates, timing result, source references, and stated limitations. It is not a report payload, filing, regulator submission, or audit record.
 
-These files support inspection of a demonstration run. They are not regulator submission files. The app does not digitally sign evidence, authenticate approval identities, apply institutional retention rules, or provide immutable storage. A fingerprint can reveal that captured content changed; it cannot prove who approved it or that the original content was correct.
+The file is not signed or tamper evident. A local review button changes demonstration state only. The app does not authenticate a reviewer, prove separation of duties, apply an institutional retention schedule, or store an immutable record.
 
-An institution adopting the pattern should attach its own identity record, approval workflow, retention schedule, access controls, time source, immutable archive, and submission identifier. If evidence contains operational data, keep it within the bank's approved storage and sharing boundary.
+An institution would need its own identity records, approval workflow, retention schedule, access controls, trusted time source, immutable archive, and submission identifiers. Keep operational evidence within approved institutional systems.

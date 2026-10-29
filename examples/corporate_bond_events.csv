@@ -1,6 +1,0 @@
-"transaction_id","instrument_id","execution_timestamp","counterparty_classification","notional_amount","price","reporting_entity_id","asset_class","execution_time_local","trade_date","submission_time_local"
-"TXN 10482","CB 4459001","2027/01/04 16:42:18","Institutional","2500000","99.875","LEI EXAMPLE 001","Corporate Bond","16:42","2027/01/04","08:31"
-"TXN 10483","CB 4459002","2027/01/04 17:20:02","Dealer","0","100.125","LEI EXAMPLE 001","Corporate Bond","17:20","2027/01/04","09:14"
-"TXN 10484","GB 3201804","2027/01/04 16:35:00","Institutional","500000","101.300","LEI EXAMPLE 001","Government Bond","16:35","2027/01/04","08:45"
-"TXN 10485","CB 5532020","2027/01/04 18:10:44","","1800000","98.450","LEI EXAMPLE 001","Corporate Bond","18:10","2027/01/04","08:50"
-"TXN 10486","CB 5532077","2027/01/04 14:48:12","Asset Manager","920000","100.025","LEI EXAMPLE 001","Corporate Bond","14:48","2027/01/04","08:22"

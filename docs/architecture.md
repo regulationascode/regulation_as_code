@@ -1,19 +1,22 @@
 # Architecture
 
-The local product has a browser interface, deterministic validation functions, bundled profile definitions, synthetic CSV files, and a small local HTTP server.
+The repository contains one browser application and a separate portable catalog scaffold. Both are static projects. There is no backend service.
 
-| Layer | Current implementation |
+| Area | Implementation |
 | --- | --- |
-| Source and obligation | Profile metadata and a human review flow in `src/core/examples.js` and `src/client/studio.js` |
-| Rule and mapping | Versioned local workflow state and mapped CSV fields |
-| Validation | Pure functions in `src/core/validation.js` |
-| Report and evidence | Browser generated downloads with hashes and lineage metadata |
-| Change review | Sample source amendment, impact review, and approval reset |
-| Conformance | Golden cases in each profile, executed by `test/examples.test.js` |
-| Local server | `server.mjs`, which serves only the explicit application assets |
+| Workspace | React and TypeScript entry at `src/main.tsx`; views and scenario state in `src/App.tsx` |
+| Timing calculation | `src/rule-timing.ts` implements three selected weekday only branches |
+| Pilot economics | `src/economics-model.ts` calculates scenario estimates and descriptive observations |
+| Reusable interface | Components in `src/components/` and `src/components/ui/` |
+| Portable catalog | Catalog schemas and one synthetic CFTC example in `portable-source/` |
+| Local catalog validation | `scripts/validate-catalog.mjs` checks the repository catalog copy in `catalog/` |
+| Development and build | Vite configuration in `vite.config.ts`; static output in `dist/` |
+| Automated checks | Source tests in `tests/` and GitHub Actions in `.github/workflows/ci.yml` |
 
-The browser stores workflow decisions in local storage. Imported records are retained in memory for the session. There is no backend database, external registry, identity provider, regulator feed, or submission connection.
+The main app presents source references, human selected interpretation, a draft rule, candidate data mappings, a deterministic timing check, an evaluation envelope, an impact replay, governance notes, adoption guidance, pilot economics, and presenter mode. The calculation uses a fixed synthetic date and counts weekdays only.
 
-The paper describes an eventual separation between public shared artifacts and private institutional execution. The public side can contain cited sources, common field concepts, reviewed rules, and synthetic conformance cases. A bank controlled deployment would hold internal mappings, approvals, records, exceptions, and operational evidence.
+Scenario and pilot values are stored in browser local storage. Downloads are created in the browser. Nothing connects to an institution, a regulator, or an external service.
 
-The product may later add a profile schema and loader so a new domain can be expressed without editing application JavaScript. That requires a deliberately bounded rule language and conformance review; arbitrary uploaded scripts would weaken auditability.
+The portable catalog has schemas for source, interpretation, rule, test plan, and catalog index. Catalog validation is separate from the app. No catalog rule is loaded or executed by the workspace.
+
+Public work can contain source references, generic interpretations, synthetic fixtures, and tests. Institution data, mappings, policies, credentials, approvals, and run evidence belong in systems controlled by the institution.

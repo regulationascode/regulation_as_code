@@ -1,0 +1,13 @@
+catalog_schema_version: 1
+catalog_id: open-regulatory-reporting
+catalog_status: prototype
+entries:
+  - id: us-cftc-17cfr-part45-section45-3
+    citation: "17 CFR §45.3"
+    title: Swap-creation reporting timing demonstration
+    package_path: jurisdictions/us/cftc/part-45/section-45-3
+    lifecycle:
+      source: identified-needs-snapshot
+      interpretation: draft-needs-human-review
+      implementation: prototype-only
+      tests: synthetic-only

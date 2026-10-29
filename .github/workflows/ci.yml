@@ -11,10 +11,13 @@ jobs:
   conformance:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7.0.1
-      - uses: actions/setup-node@v6.5.0
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run validate:catalog
       - run: npm test
-      - run: npm run examples:export
-      - run: git diff --exit-code -- examples/
+      - run: npm run package:source
+      - run: npm run build

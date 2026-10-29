@@ -1,5 +1,5 @@
 name: Bug report
-description: Report behavior using synthetic data
+description: Report behavior using synthetic values
 title: "Bug: "
 labels: ["bug"]
 body:
@@ -7,13 +7,13 @@ body:
     id: behavior
     attributes:
       label: What happened?
-      description: Describe the profile, step, expected outcome, and actual outcome.
+      description: Describe the page or action, expected outcome, and actual outcome.
     validations:
       required: true
   - type: textarea
     id: reproduction
     attributes:
       label: Synthetic reproduction
-      description: Include sample steps or invented values only. Do not share bank data.
+      description: Include sample steps or invented values only. Do not share institution data.
     validations:
       required: true
