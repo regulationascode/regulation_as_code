@@ -1,6 +1,6 @@
 # Roadmap
 
-The working preview covers the paper's full lifecycle through three local examples. The next product work should focus on reusable artifacts rather than adding more presentation screens.
+The fictional corporate bond profile demonstrates the full source to evidence workflow. HMDA and Call Report are narrower preflight and reconciliation examples. The conference experience builds on this Studio workflow with a focused CFTC timing walkthrough and additional presentation views. Those views are not part of the local app in this repository. The next product work should focus on reusable artifacts rather than adding more presentation screens.
 
 1. Publish a bounded profile schema and loader with explicit supported operations.
 2. Add a command line runner for profiles and CSV inputs, with machine readable results.

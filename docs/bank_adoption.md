@@ -4,7 +4,7 @@
 
 Choose one narrow obligation that has a public source and can be tested with synthetic data. Start with a bank approved interpretation and a named control owner. A local reporting team should confirm applicability, timing, field definitions, and the current regulator instructions before adapting code.
 
-1. Fork this repository into a bank controlled development environment.
+1. Choose the repository boundary first. Use a public fork for work intended for public review. A fork of this public GitHub repository stays public. For internal bank work, create a private repository from a reviewed release or approved source copy through the bank's process. See the [fork and privacy guide](fork_guide.md).
 2. Run the three sample profiles and `npm test`.
 3. Copy the [profile worksheet](../profiles/template/README.md) into the bank's private records.
 4. Record the official source link, version, section, effective date, scope, trigger, deadline, and required fields.
